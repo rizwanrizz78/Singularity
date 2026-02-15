@@ -1,0 +1,36 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Singularity BP",
+        "description": "Behavior Pack for Singularity Addon",
+        "uuid": "9226b47f-b00c-409b-a71c-8d0973e88aea",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+        {
+            "description": "Singularity Data Module",
+            "type": "data",
+            "uuid": "294cae72-a458-4417-b066-edae4bd3435f",
+            "version": [1, 0, 0]
+        },
+        {
+            "description": "Singularity Script Module",
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/main.js",
+            "uuid": "81a2ed0c-1e12-4a96-9d63-9d5d72cb8523",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "cf77f30b-6dd5-4839-bb0c-1bd59624cdb7",
+            "version": [1, 0, 0]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.13.0-beta"
+        }
+    ]
+}
