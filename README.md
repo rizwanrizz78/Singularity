@@ -20,6 +20,39 @@ This addon is designed for direct development on mobile or environments without 
 
 ---
 
+## 🎨 Texture Creation Guide (Action Required)
+
+Since this project only contains the code and logical mappings, **you must create the following image files** for the items to appear correctly in-game.
+
+### 1. Folder Structure
+You need to create these folders inside `Singularity_Addon/RP/`:
+```
+Singularity_Addon/RP/
+└── textures/
+    ├── blocks/
+    │   └── singularity/  <-- Create this folder
+    └── items/
+        └── singularity/  <-- Create this folder
+```
+
+### 2. Required Block Textures (16x16 PNG)
+Place these files in `RP/textures/blocks/singularity/`:
+- [ ] `tin_ore.png` (Stone-like ore texture, gray/white spots)
+- [ ] `primalite_ore.png` (Deepslate-like ore texture, teal/cyan spots)
+- [ ] `uranium_ore.png` (Stone-like ore texture, bright green glowing spots)
+
+### 3. Required Item Textures (16x16 PNG)
+Place these files in `RP/textures/items/singularity/`:
+- [ ] `copper_dust.png` (Pile of orange dust)
+- [ ] `primalite_gem.png` (Cyan gemstone)
+- [ ] `singularium_alloy.png` (Dark purple ingot)
+- [ ] `raw_tin.png` (Chunky raw ore, gray/white)
+- [ ] `tin_ingot.png` (Standard ingot, silver/gray)
+- [ ] `raw_uranium.png` (Chunky raw ore, green)
+- [ ] `uranium_ingot.png` (Standard ingot, dark green)
+
+---
+
 ## 📂 Project Structure
 
 This project does **NOT** use TypeScript or build tools. All code is written in standard ES6 JavaScript.
