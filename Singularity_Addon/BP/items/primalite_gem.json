@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "singularity:primalite_gem",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.gem"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64
+		}
+	}
+}

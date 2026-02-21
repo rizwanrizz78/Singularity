@@ -1,0 +1,13 @@
+{
+	"resource_pack_name": "singularity",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"singularity:copper_dust": { "textures": "textures/items/singularity/copper_dust" },
+		"singularity:primalite_gem": { "textures": "textures/items/singularity/primalite_gem" },
+		"singularity:singularium_alloy": { "textures": "textures/items/singularity/singularium_alloy" },
+		"singularity:raw_tin": { "textures": "textures/items/singularity/raw_tin" },
+		"singularity:tin_ingot": { "textures": "textures/items/singularity/tin_ingot" },
+		"singularity:raw_uranium": { "textures": "textures/items/singularity/raw_uranium" },
+		"singularity:uranium_ingot": { "textures": "textures/items/singularity/uranium_ingot" }
+	}
+}

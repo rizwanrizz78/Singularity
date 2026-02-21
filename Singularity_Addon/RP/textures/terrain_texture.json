@@ -1,0 +1,9 @@
+{
+	"resource_pack_name": "singularity",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"singularity:tin_ore": { "textures": "textures/blocks/singularity/tin_ore" },
+		"singularity:primalite_ore": { "textures": "textures/blocks/singularity/primalite_ore" },
+		"singularity:uranium_ore": { "textures": "textures/blocks/singularity/uranium_ore" }
+	}
+}

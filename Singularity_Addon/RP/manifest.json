@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Singularity RP",
+        "description": "Resource Pack for Singularity Addon",
+        "uuid": "cf77f30b-6dd5-4839-bb0c-1bd59624cdb7",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+        {
+            "description": "Singularity Resources Module",
+            "type": "resources",
+            "uuid": "cf4ff7f8-4076-46e3-a5a4-4faa293908ad",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "9226b47f-b00c-409b-a71c-8d0973e88aea",
+            "version": [1, 0, 0]
+        }
+    ]
+}
